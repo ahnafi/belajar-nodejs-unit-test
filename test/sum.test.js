@@ -1,7 +1,7 @@
-import { sum } from "src/sum.js";
+import { sum } from "../src/sum.js";
 
-test("sum(1,2) must be 3", () => {
-  const result = sum(1, 2);
+test("test ajah harusnya keluar", () => {
+  const harusnya = sum(2, 3);
 
-  expect(result).toBe(3);
+  expect(harusnya).toBe(5);
 });
