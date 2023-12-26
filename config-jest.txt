@@ -11,3 +11,4 @@
       "src/**/*.{js,jsx}",
       "!vendor/*.{js,jsx}"
     ]
+    "maxConcurrency":5,
