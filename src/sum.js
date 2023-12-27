@@ -9,3 +9,18 @@ export function sumAll(num){
   }
   return hasil;
 }
+
+export function calculate(num,callback){
+  let hasil = 0;
+  for (const number of num) {
+    hasil += number
+  }
+  callback(hasil);
+}
+export function calculateAndReturn(num,callback){
+  let hasil = 0;
+  for (const number of num) {
+    hasil += number
+  }
+  return callback(hasil);
+}
