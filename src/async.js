@@ -10,3 +10,7 @@ export const sayHelloAsync = (name) => {
   });
 };
 
+export async function getBalance(name,from){
+  const balance = await from()
+  return {name,balance}
+}
